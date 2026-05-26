@@ -6,8 +6,10 @@ import org.junit.jupiter.api.Test;
 public class StatisticsServiceTest {
 
     @Test
-    pablic void testSam() {
-        Long[] sales = { 8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18 };
+    pablic
+
+    void testSam() {
+        Long[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
         StatisticsService service = new StatisticsService();
 
         long expected = 8 + 15 + 13 + 15 + 17 + 20 + 19 + 20 + 7 + 14 + 14 + 18;
